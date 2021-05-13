@@ -1,6 +1,10 @@
 .header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: black;
     color: white;
+    z-index: 1000;
     //font-size: 2em;
 
     &-container{
