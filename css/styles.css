@@ -1,3 +1,53 @@
 @import 'normalize.css';
+.body {
+  font-size: 16px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --yellow: #e6c405;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header__title h2 {
+  margin: 10px;
+}
+.header__links .links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__links .links a {
+  text-decoration: none;
+}
+.header__links .links a .link {
+  list-style-type: none;
+  padding: 20px 20px 16px 20px;
+  margin: 0;
+  color: white;
+  transition: color 300ms, border 300ms;
+  border-bottom: 4px solid black;
+}
+.header__links .links a .link:hover {
+  color: var(--yellow);
+  border-bottom: 4px solid var(--yellow);
+}
 
 /*# sourceMappingURL=styles.css.map */

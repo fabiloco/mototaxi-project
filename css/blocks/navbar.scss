@@ -1,0 +1,45 @@
+.header{
+    background-color: black;
+    color: white;
+    //font-size: 2em;
+
+    &-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__title{
+        h2{
+            margin: 10px;
+        }
+    }
+
+    &__links{
+        
+        .links{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+
+                .link{
+
+                    list-style-type: none;
+                    padding: 20px 20px 16px 20px;
+                    margin: 0;
+                    color: white;
+                    transition: color 300ms, border 300ms;
+                    border-bottom: 4px solid black;
+                    
+                    &:hover{
+                        color: var(--yellow);
+                        border-bottom: 4px solid var(--yellow);
+                    }
+                }
+            }
+        }
+    }
+}
