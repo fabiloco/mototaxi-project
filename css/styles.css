@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   background-image: url("../../src/img/FONDO DEFINITIVO.png");
   background-attachment: fixed;
-  z-index: 10;
 }
 
 h2 {
@@ -154,15 +153,15 @@ p {
   width: 20%;
   height: 100%;
 }
-.section2__video-container i {
-  content: url("../../src/icon/play.png");
+.section2__video-container img {
   opacity: 1;
   width: 80px;
 }
-.section2__video-container i:hover {
+.section2__video-container img:hover {
   cursor: pointer;
 }
 .section2__video-container p {
+  color: white;
   opacity: 1;
   margin-top: 20px;
   font-size: 1.5em;
@@ -191,8 +190,35 @@ p {
 .section3 {
   height: 100%;
   border-top: 3px solid var(--yellow);
+  border-bottom: 3px solid var(--yellow);
+  background-image: url("../../src/img/Fondo 2.png");
+  background-color: #00000050;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .section3__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.triangle {
+  width: 40px;
+  content: url("../../src/icon/triangle.png");
+}
+
+.section4 {
+  height: 100%;
+}
+.section4__text {
   display: flex;
   flex-direction: column;
   justify-content: center;

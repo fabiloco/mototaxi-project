@@ -14,8 +14,7 @@
         justify-content: center;
         width: 20%;
         height: 100%;
-        i{
-            content: url("../../src/icon/play.png");
+        img{
             opacity: 1;
             width: 80px;
             &:hover{
@@ -23,6 +22,7 @@
             }
         }
         p{
+            color: white;
             opacity: 1;
             margin-top: 20px;
             font-size: 1.5em;

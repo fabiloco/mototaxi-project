@@ -1,6 +1,17 @@
 .section3{
     height: 100%;
     border-top: 3px solid var(--yellow);
+    border-bottom: 3px solid var(--yellow);
+    background-image: url("../../src/img/Fondo\ 2.png");
+    background-color: #00000050;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__text{
         display: flex;
@@ -10,4 +21,9 @@
         margin: 0 auto;
         width: 70%;
     }
+}
+
+.triangle{
+    width: 40px;
+    content: url('../../src/icon/triangle.png');
 }
