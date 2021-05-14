@@ -1,0 +1,20 @@
+{
+  "name": "toto-project",
+  "version": "1.0.0",
+  "description": "A plain page for an article",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiloco/mototaxi-project.git"
+  },
+  "author": "Fabián Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiloco/mototaxi-project/issues"
+  },
+  "homepage": "https://github.com/fabiloco/mototaxi-project#readme",
+  "dependencies": {}
+}

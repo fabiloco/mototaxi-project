@@ -80,7 +80,7 @@
 
                 <div class="section2">
                     <div class="section2__video-container">
-                        <i class="play"></i>
+                        <i id="playButton" class="play"></i>
                         <p class="seeTesti">Ver testimonio</p>
                     </div>
                     <div class="section2__img-container">
@@ -96,7 +96,7 @@
 
                 <div class="section3">
 
-                    
+
 
                 </div>
 
@@ -105,6 +105,19 @@
         </div>
     </article>
 
+    <!-- The modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="close-container">
+                <span id="closeModal" class="close">&times;</span>
+            </div>
+            
+            <iframe width="850" height="480" src="https://www.youtube.com/embed/rXpW2XBVUdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
     <script src="js/index.js"></script>
+    <script type="module" src="js/modal.js"></script>
 </body>
 </html>
