@@ -12,16 +12,30 @@
     //justify-content: space-around;
 
     &__img-container{
-        img{
-            width: 70%;
-            height: 100vh;
-            object-fit: cover;
+        display: block;
+        width: 30%;
+        height: 100vh;
+        position: sticky;
+        top: 70px;
+        z-index: 200;
+        
+        
+        .img{
+            position: absolute;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("../../src/img/Imagen\ 1.png");
+            background-repeat: no-repeat;
+            //background-size: cover;
+            background-position: 100px 0;
         }
     }
 
     &__text{
+        width: 70%;
         text-align: left;
-        padding: 40px;
+        padding: 80px ;
     }
 
     &__p{
