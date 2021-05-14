@@ -188,6 +188,19 @@ p {
   position: absolute;
 }
 
+.section3 {
+  height: 100%;
+  border-top: 3px solid var(--yellow);
+}
+.section3__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
 .modal {
   display: none;
   position: fixed;
