@@ -44,6 +44,15 @@ p {
   justify-content: space-evenly;
   align-items: center;
 }
+.header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__title img {
+  width: 30px;
+  height: 30px;
+}
 .header__title h2 {
   margin: 10px;
 }
@@ -221,7 +230,7 @@ p {
 
 .triangle {
   width: 40px;
-  content: url("../../src/icon/triangle.png");
+  content: url("https://i.ibb.co/h7yspCX/triangle.png");
 }
 
 .section4 {
@@ -305,28 +314,31 @@ p {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 .footer h2 {
   font-size: 4em;
+  margin-bottom: 30px;
 }
 .footer p {
-  font-size: 1.3em;
+  font-size: 1.4em;
+  margin-bottom: 10px;
 }
 .footer .redes {
   display: flex;
+  margin-top: 30px;
 }
 .footer .instagram {
-  background: #d6249f;
-  border-radius: 5px;
   display: flex;
 }
 .footer .instagram-icon {
-  content: url("../../src/icon/instagram.svg");
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  border-radius: 5px;
+  content: url("https://i.ibb.co/v4kkRH3/instagram.png");
+}
+.footer .instagram-text {
+  margin: 0 10px 0 4px;
+  color: white;
+  font-size: 1.1em;
 }
 
 .modal {

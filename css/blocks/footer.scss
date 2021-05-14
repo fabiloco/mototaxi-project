@@ -3,30 +3,34 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     h2{
         font-size: 4em;
+        margin-bottom: 30px;
     }
     p{
-        font-size: 1.3em;
+        font-size: 1.4em;
+        margin-bottom: 10px;
     }
 
     .redes{
         display: flex;
+        margin-top: 30px;
     }
 
     .instagram{
-        background: #d6249f;
-        border-radius: 5px;
         display: flex;
 
         &-icon{
-            content: url("../../src/icon/instagram.svg");
-            background: #d6249f;
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-            border-radius: 5px;
+            content: url("https://i.ibb.co/v4kkRH3/instagram.png");
+        }
+
+        &-text{
+            margin: 0 10px 0 4px;
+            color: white;
+            font-size: 1.1em;
         }
     }
 }
