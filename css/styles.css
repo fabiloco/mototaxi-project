@@ -236,6 +236,10 @@ p {
   height: 60vh;
 }
 
+.section6-container {
+  border-bottom: 3px solid var(--yellow);
+}
+
 .section6 {
   width: 90%;
   height: 100%;
@@ -244,7 +248,7 @@ p {
   width: 65%;
 }
 .section6__img-container .img {
-  background-image: url("../../src/img/Imagen 4.png");
+  background-image: url("../../src/img/Imagen 5.png");
 }
 .section6__text {
   width: 35%;
@@ -256,10 +260,25 @@ p {
   align-items: center;
 }
 
+.section7-container {
+  width: 100%;
+}
+
 .section7 {
   height: 100vh;
 }
-
+.section7__text {
+  width: 70%;
+  margin: 0 auto;
+}
+.section7__graphs {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section7__graphs .graph {
+  margin-bottom: 40px;
+}
 .modal {
   display: none;
   position: fixed;

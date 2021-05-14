@@ -1,3 +1,25 @@
+.section7-container{
+    width: 100%;    
+}
 .section7{
     height: 100vh;
+
+    &__text{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    &__graphs{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+
+        .graph{
+            margin-bottom: 40px;
+
+            iframe{
+                
+            }
+        }
+    }
 }

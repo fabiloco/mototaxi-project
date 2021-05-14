@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if(window.pageYOffset > 2000) {
             console.log(imgSlide2.style.backgroundPositionX);
-            imgSlide2.style.backgroundPositionX = `${(window.pageYOffset*0.1)-500}px`;
+            imgSlide2.style.backgroundPositionX = `${(window.pageYOffset*0.1)-700}px`;
         }
         
     });
