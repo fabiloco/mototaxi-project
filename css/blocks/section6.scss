@@ -1,0 +1,22 @@
+.section6{
+    width: 90%;
+    height: 100%;
+
+    &__img-container{
+        width: 65%;
+
+        .img{
+            background-image: url("../../src/img/Imagen\ 4.png");
+        }
+    }
+
+    &__text{
+        width: 35%;
+    }
+}
+
+.triangle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
