@@ -1,5 +1,8 @@
-.body{
-    font-size: 16px;   
+body{
+    font-size: 16px;
+    background-image: url("../../src/img/FONDO\ DEFINITIVO.png");
+    background-attachment: fixed;
+    z-index: 10;
 }
 
 h2{
