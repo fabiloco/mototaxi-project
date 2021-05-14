@@ -1,8 +1,12 @@
 @import 'normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 body {
-  font-size: 16px;
+  font-size: 13px;
   background-image: url("../../src/img/FONDO DEFINITIVO.png");
   background-attachment: fixed;
+  font-family: var(--font);
+  font-weight: 400;
+  line-height: 30px;
 }
 
 h2 {
@@ -23,6 +27,7 @@ p {
 :root {
   --yellow: #e6c405;
   --yellowA: #e6c40550;
+  --font:"Roboto", sans-serif;
 }
 
 .header {
@@ -98,6 +103,8 @@ p {
 .section-start__title-container .section-start__subtitle {
   color: var(--yellow);
   font-size: 2em;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .section1 {
@@ -265,7 +272,7 @@ p {
 }
 
 .section7 {
-  height: 100vh;
+  height: 100%;
 }
 .section7__text {
   width: 70%;
@@ -279,6 +286,19 @@ p {
 .section7__graphs .graph {
   margin-bottom: 40px;
 }
+.section8 {
+  width: 100vw;
+  height: 100vh;
+}
+.section8 .video-container {
+  width: 100%;
+  height: 100%;
+}
+.section8 .video-container .video {
+  width: 100%;
+  height: 100%;
+}
+
 .modal {
   display: none;
   position: fixed;
