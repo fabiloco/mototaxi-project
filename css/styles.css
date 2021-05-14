@@ -26,7 +26,7 @@ p {
 }
 
 :root {
-  --yellow: #e6c405;
+  --yellow: #f2c500;
   --yellowA: #e6c40550;
   --font:"Roboto", sans-serif;
 }
@@ -81,21 +81,17 @@ p {
   width: 100%;
   position: relative;
   height: 100vh;
-  perspective: 8px;
 }
 .section-start__bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-}
-.section-start__bg img {
-  position: fixed;
-  z-index: -1;
   width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  height: 100%;
+}
+.section-start__bg .img {
+  background-image: url("https://i.ibb.co/PgRntVM/Fondo-1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 .section-start__title-container {
   z-index: 200;
